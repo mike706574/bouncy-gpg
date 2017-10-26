@@ -1,7 +1,16 @@
-.gradle/
-.idea/
-bouncy-castle-examples.iml
-build/
-.DS_Store
-out/
-gradle.properties
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+src/test/resources/password.txt
+
+.idea
+*.iml
+
+# Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
+!/.mvn/wrapper/maven-wrapper.jar
